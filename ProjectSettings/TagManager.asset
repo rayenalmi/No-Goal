@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - help
+  - cage
+  - bal
+  - right
+  - left
+  - stade
+  - TR
+  - RED
+  - GREEN
+  - BLEU
+  - COLOR
+  - eguit
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - cage
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: cage
+    uniqueID: 1091485891
+    locked: 0
+  - name: ball
+    uniqueID: 2034248321
+    locked: 0
