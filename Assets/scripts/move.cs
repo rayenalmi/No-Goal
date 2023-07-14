@@ -26,6 +26,8 @@ public class move : MonoBehaviour
     GameObject gauche;
     float tiemfordeth=5.6f;
     int F;
+    public GameObject limitR;
+    public GameObject limitL;
 
    
 
@@ -232,6 +234,16 @@ public class move : MonoBehaviour
     void FixedUpdate()      
 
     {
+        float sourceY = transform.position.y;
+
+        // Assign the X position to the target object
+        Vector3 targetPosition = limitR.transform.position;
+        targetPosition.y = sourceY;
+        limitR.transform.position = targetPosition;
+
+        Vector3 targetPosition1 = limitL.transform.position;
+        targetPosition1.y = sourceY;
+        limitL.transform.position = targetPosition1;
        
         if (droite.GetComponent<right>().buttonPressedright==true)
         {
